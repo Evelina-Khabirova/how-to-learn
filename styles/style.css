@@ -120,6 +120,7 @@
   min-height: 600px;
   max-height: 756px;
   padding: 100px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,6 +166,58 @@
 }
 
 /*Конец блока digits*/
+
+/*Начала блока feynman*/
+
+.feynman {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  padding: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  margin: 0;
+}
+
+.feynman__subtitle {
+  padding-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  text-align: center;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  z-index: 1;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*Конец блока feynman*/
 
 /*Дополнительные стили страницы*/
 
