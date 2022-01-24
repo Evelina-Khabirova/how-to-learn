@@ -75,16 +75,16 @@
 /*Начало блока description*/
 
 .description {
-  margin-top: 100px;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
 }
 
 .two-columns {
-  padding: 100px 100px;
+  padding: 100px;
   display: flex;
   width: 80%;
+  justify-content: space-between;
 }
 
 .brief {
@@ -112,6 +112,17 @@
 }
 
 /*Конец блока description*/
+
+/*Начало блока digits*/
+
+.digits {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  padding: 100px;
+}
+
+/*Конец блока digits*/
 
 /*Дополнительные стили страницы*/
 
