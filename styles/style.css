@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*Начало блока header*/
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -68,12 +70,50 @@
   right: 0;
 }
 
+/*Конец блока header*/
+
+/*Начало блока description*/
+
 .description {
   margin-top: 100px;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
 }
+
+.two-columns {
+  padding: 100px 100px;
+  display: flex;
+  width: 80%;
+}
+
+.brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.main-text {
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+}
+
+.text__description {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.span-accent {
+  font-weight: bold;
+}
+
+/*Конец блока description*/
+
+/*Дополнительные стили страницы*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
