@@ -12,10 +12,6 @@
 /*Начало блока header*/
 
 .header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -74,12 +70,6 @@
 
 /*Начало блока description*/
 
-.description {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-}
-
 .two-columns {
   padding: 100px;
   display: flex;
@@ -113,17 +103,26 @@
 
 /*Конец блока description*/
 
-/*Начало блока digits*/
+/*Начало блока digits и kaufman*/
 
-.digits {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+/*Общие стили для двух блоков*/
+
+.digits-kaufman-display {
   padding: 100px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.title-subtitle {
+  z-index: 1;
+}
+
+.digits-kaufman__main-text {
+  z-index: 1;
 }
 
 .section-title {
@@ -150,7 +149,6 @@
 
 .cell {
   margin-top: 60px;
-  width: 250px;
 }
 
 .heading {
@@ -165,14 +163,37 @@
   font-weight: normal;
 }
 
-/*Конец блока digits*/
+/*Стили только для digits*/
+
+.digits__cell {
+  width: 250px;
+}
+
+/*Стили только для kaufman*/
+
+.kaufman {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.kaufman__cell {
+  width: 200px;
+}
+
+.kaufman__image {
+  width: 877;
+  height: 877;
+  position: absolute;
+  top: 0;
+  right: -200px;
+  z-index: 0;
+}
+
+/*Конец блока digits и kaufman*/
 
 /*Начала блока feynman*/
 
 .feynman {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
   background-color: #f2f2f2;
   padding: 100px;
   position: relative;
@@ -232,4 +253,10 @@
 .link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.section-size {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
 }
