@@ -109,7 +109,7 @@
 
 .digits-kaufman-display {
   padding: 100px;
-  margin-bottom: 100px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,14 +240,89 @@
 
 /*Конец блока feynman*/
 
+/*Начало блока footer*/
+
+.footer {
+  height: 100vh;
+  min-height: 350px;
+  max-height: 450px;
+  margin-top: 0;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.columns__copyright .columns__info .columns__social {
+  flex-direction: column;
+}
+
+.columns__copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo__footer {
+  width: 183px;
+  height: 35px;
+}
+
+.author {
+  margin: 18px 0 18px;
+  line-height: 25px;
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.info__columns-links {
+  margin: 20px 0 16px;
+}
+
+.columns-links {
+  color: white;
+  text-decoration: none;
+  height: 10px;
+}
+
+.social__columns-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.columns-links__icon {
+  width: 16px;
+  height: 16px;
+}
+
+.columns-heading .columns-links {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.columns-heading {
+  font-weight: bold;
+}
+
+/*Конец блока footer*/
+
 /*Дополнительные стили страницы*/
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.section-size {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
 }
 
 .link {
@@ -255,8 +330,10 @@
   text-decoration: none;
 }
 
-.section-size {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
