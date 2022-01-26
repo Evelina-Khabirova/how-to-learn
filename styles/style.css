@@ -263,7 +263,9 @@
   width: 90%;
 }
 
-.columns__copyright .columns__info .columns__social {
+.columns__copyright .columns__info .columns__social
+.info__columns-links .social__columns-links {
+  display: flex;
   flex-direction: column;
 }
 
