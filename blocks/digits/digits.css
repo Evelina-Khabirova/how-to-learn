@@ -1,0 +1,11 @@
+@import url(../table/table.css);
+@import url(../table/__heading/table__heading.css);
+@import url(../table/__text/table__text.css);
+@import url(../table/__cell/table__cell.css);
+
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
